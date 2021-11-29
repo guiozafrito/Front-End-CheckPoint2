@@ -80,8 +80,6 @@
     border-style: inset;
     margin-left: 210px;
     position: relative;
-
-    position: relative;
     margin: 0px;
     padding: 0px;
     height: 794px; 
@@ -199,7 +197,7 @@ button{
         
 }
 
-.formulario__button:hover {
+button:hover {
     background:#ff5800;
     color:black;
     transform:scale(3);
@@ -209,19 +207,6 @@ formulario__label.nome
 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#formulario__label
-{
-  position:absolute;
-  left:50px;
-  margin-right:10px;
-}
-fieldset {
-  width:300px;
-  height:250px;
-  margin-left:70px;
-  margin-right:20px;
-}
 p{
   font-style:bold;
   font-family: “Segoe UI”,”Arial”,”Times New Roman”;
@@ -229,5 +214,4 @@ p{
   text-decoration: none;
   margin-left: 12px;
   margin-right: 12px;
-  ;
 }
