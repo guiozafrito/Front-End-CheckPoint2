@@ -1,33 +1,26 @@
-body{
+.corpo{
     background-color: rgb(41, 41, 41);
-}
-.site{
-    width: 1200px;
-    min-height: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 .cabecalho{
-    height: 150px;
-    
-    
-}
-.menu{
-    height: 50px;
+    height: 200px;
+    display: block;
     
 }
-.corpo{
-    height: 800px;
+.principal{
+    position: relative;
+    height: 100%;
     background-image: url("./img/fundo2.jpg");
     background-repeat:no-repeat;
     background-size: 1120px 800px;
+    margin: 0px;
+    padding: 0px;   
+    height: 794px; 
     
 }
-.rodape{
+.pontos_fortes{
     height: 130px;
     background-color: rgb(0, 0, 0);
     width: 1176px;
@@ -44,14 +37,14 @@ body{
     color: #ff5800;
     
 }
-.logo{
+.cabecalho__logo{
     width: 200px;
     right: 200px;
     float: left;
     margin-left: 0px;
     
 }
-.rsocial{
+.redes_sociais_logo{
     width: 40px;
     right: 40px;
     margin-left: 5px;
@@ -61,35 +54,105 @@ body{
     display: inline-block;
     background-image: image-set;
 }  
-h1{
+.titulo{
     color: #ff5800;
 } 
-.info{
+.principal__info{
     display: inline-block;
     text-align: justify;
+<<<<<<< HEAD
     width: 400px;
     height: 794px;
     font-family: Arial, Helvetica, sans-serif;
+=======
+    width: 49%;
+>>>>>>> d9513cd955fed70452afc74a7879dbb26082bc70
     position: relative;
-    margin-right: 20px;
-    margin-left: 50px;
+    margin: 2px;
+    padding: 0px;
     
-    }
-.divformulario{
+}
+.principal__formulario{
     display: inline-block;
     background-color:#ff5800;
-    width: 485px;
-    height: 794px;
+    width: 50%;
     text-align: justify;
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
     color: azure;
     border-style:double;
     border-style: inset;
     margin-left: 210px;
     position: relative;
+=======
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 794px; 
 }
 
-.rodape_link1{
+.formulario__grupo{
+    margin: 3px;
+    padding: 1px;
+}
+
+.formulario__label{
+    display:block;
+    clear:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFF7F5;
+    margin: 5px;
+    padding: 1px;
+}
+
+.formulario__label_check{
+    display:inline-block;
+    clear:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFF7F5
+}
+
+.formulario__texto{
+    display:block;
+    clear:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 98%;
+    height: 20px;
+    margin: 5px;
+    padding: 1px;
+    border-width: 1px ;
+}
+
+.formulario__button{
+    margin: 5px;
+    padding: 1px;  
+}
+
+.formulario__button_item{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    background-color: #00206B;
+    border:1px;
+}
+
+.formulario__enunciado {
+    text-align: justify;
+    color: azure; 
+>>>>>>> d9513cd955fed70452afc74a7879dbb26082bc70
+}
+
+.pontos_fortes{
+width: 100%;
+display: inline-block;
+}
+
+.pontos_fortes_link{
     display: inline-block;
     width: 200px;
     right: 10px;
@@ -97,27 +160,21 @@ h1{
     border-style: double;
     margin:10px;
 }
-.rodape_link2{
-    display: inline-block;
-    width: 200px;
-    right: 40px;
-}
-.rodape_link3{
-    display: inline-block;
-    width: 200px;
-    right: 40px;
-}
-.icone_rodape{
+
+.pontos_fortes_icone{
     width: 60px;
-    right: 60px;
-    margin-right: 100px;
+    height: 60px;
 }
 h4{
     color: #ff5800;
     margin-left: 50px;
 }
+<<<<<<< HEAD
 .link_rodape{
     font-family: Arial, Helvetica, sans-serif;
+=======
+.pontos_fortes_link{
+>>>>>>> d9513cd955fed70452afc74a7879dbb26082bc70
     color: white; 
     font-size: 12px;
     margin-top: 350px;
@@ -127,7 +184,13 @@ h4{
 h2{
     color: #ff5800;
 }
-.fim{
+
+.newsletter{
+    width: 100%;
+    display: inline-block;
+}
+
+.rodape{
     height: 60px;
     background-color: rgb(0, 0, 0);
     width: 1176px;
