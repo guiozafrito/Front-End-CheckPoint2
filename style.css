@@ -69,6 +69,7 @@ h1{
     text-align: justify;
     width: 400px;
     height: 794px;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin-right: 20px;
     margin-left: 50px;
@@ -80,11 +81,12 @@ h1{
     width: 485px;
     height: 794px;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     color: azure;
-    border-color: black;
-    border-style: double;
+    border-style:double;
+    border-style: inset;
+    margin-left: 210px;
     position: relative;
-    margin-left: 210px;    
 }
 
 .rodape_link1{
@@ -115,6 +117,7 @@ h4{
     margin-left: 50px;
 }
 .link_rodape{
+    font-family: Arial, Helvetica, sans-serif;
     color: white; 
     font-size: 12px;
     margin-top: 350px;
@@ -129,4 +132,45 @@ h2{
     background-color: rgb(0, 0, 0);
     width: 1176px;
     color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif
+}
+button{
+    background-color:rgb(41, 41, 41)
+        
+}
+
+button:hover {
+    background:#ff5800;
+    color:black;
+    transform:scale(3);
+}
+
+formulario__label.nome
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formulario__label
+{
+  position:absolute;
+  left:50px;
+  margin-right:10px;
+}
+fieldset {
+  width:300px;
+  height:250px;
+  margin-left:70px;
+  margin-right:20px;
+}
+p{
+  font-style:bold;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
+  ;
 }
